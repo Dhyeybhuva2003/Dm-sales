@@ -1,0 +1,41 @@
+{
+  "name": "wite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wite",
+    "build": "wite build",
+    "preview": "wite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-data-grid": "^6.10.2",
+    "@mui/x-data-grid-generator": "^6.10.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-charts": "^3.0.0-beta.55",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.2",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.14.2",
+    "react-to-print": "^2.14.13",
+    "react-toastify": "^9.1.3",
+    "styled-components": "^5.3.11",
+    "wite-project": "file:"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@witejs/plugin-react": "^3.1.0",
+    "wite": "^4.2.0"
+  }
+}
