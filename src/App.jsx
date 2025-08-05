@@ -33,7 +33,7 @@ function App() {
   var [isOpen, setisOpen] = useState(true)
   var [sellItems, setsellItems] = useState([])
 
-  axios.defaults.baseURL = "http://localhost:9990/distributer/api/v1/public/";
+  axios.defaults.baseURL = "https://www.alliedge.space/dmsales/distributer/api/v1/public/";
   return (
     <>
       <Sidebar isOpen={isOpen} />
